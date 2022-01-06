@@ -5,6 +5,7 @@
         <style>
             html {
                 font-size: 10px;
+                background-color:rgb(60, 200, 255); /*If browser doesn't support gradient- default*/
                 background-image: linear-gradient(180deg, #8ee5ff, #8fffd6);
             }
             main {
@@ -31,8 +32,9 @@
                 margin: auto;
                 /*border-radius: 15%;*/
             }
-            div.bulletpoints { /*Note to self, dot thingie is for class*/
-                text-align: left;
+            #img-caption {
+                margin: 15px;
+                padding: auto;
             }
             div.bulletboxsection {
                 width: auto;
@@ -41,18 +43,17 @@
                 margin: 95px;
                 background-color: white;
             }
-            #img-caption {
-                margin: 15px;
-                padding: auto;
+            div.bulletpoints { /*Note to self, dot thingie is for class*/
+                text-align: left;
+            }
+            h3.bullettitle {
+                font-size: 40px;
             }
             /*#goodtitle {
                 position: relative;
                 left: -140px;
                 font-size: 40px;
             }*/
-            h3.bullettitle {
-                font-size: 40px;
-            }
         </style>
     </head>
     <main id="main">
@@ -74,9 +75,13 @@
                 <div class="bulletpoints" id="goodpoints">
                     <ul>
                         <li>Playing Tug-O-War</li>
-                        <ul><li>With other dogs and people</li></ul>
+                        <ul>
+                            <li>With other dogs and people</li>
+                        </ul>
                         <li>When her hooman makes her homemade food and treats</li>
-                        <ul><li>Especially the chicken, white rice, sweet potato and chicken broth. YUM!</li></ul>
+                        <ul>
+                            <li>Especially the chicken, white rice, sweet potato and chicken broth. YUM!</li>
+                        </ul>
                         <li>Loves to go for walks</li>
                         <ul>
                             <li>Can be going on hikes</li>
@@ -93,7 +98,7 @@
             </div>
             <div class="bulletboxsection" id="badbulletboxsection">
                 <h3 class="bullettitle">The Things That Ace Avoids!</h3>
-                <div class="bulletpoints" id="badpoints"> <!--Note to self: id>class-->
+                <div class="bulletpoints" id="badpoints"> <!--Note to self: id&class>id>class-->
                     <ul>
                         <li>Turkey!</li>
                         <ul>
@@ -101,9 +106,13 @@
                             <li>but she does like how it tastes</li>
                         </ul>
                         <li>Sharing her bedtime toy</li>
-                        <ul><li>She definitely doesn't want other dogs to rip up her stuffed animal(s)</li></ul>
+                        <ul>
+                            <li>She definitely doesn't want other dogs to rip up her stuffed animal(s)</li>
+                        </ul>
                         <li>Being away from her hooman for too long</li>
-                        <ul><li>If necessary, she requires one of her hooman's blankets/clothing for her to lay on</li></ul>
+                        <ul>
+                            <li>If necessary, she requires one of her hooman's blankets/clothing for her to lay on</li>
+                        </ul>
                         <li>Sharing attention</li>
                         <ul>
                             <li>Any other furfriends getting pets while she wants pets is forbidden</li>
